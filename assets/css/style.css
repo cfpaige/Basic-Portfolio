@@ -71,6 +71,10 @@ li a.active {
     overflow: hidden;
   }
 
+h2 {
+  color: #4aaaa5;
+}
+
 #about-img {
     float: left;
     margin: 0 1em 1em 0;
@@ -105,9 +109,13 @@ figure {
     overflow: hidden;
     color: #fff;
     text-align: center;
-
   }
   
+/* cannot figure out how to put a solid line/background behind the caption
+figcaption {
+  background-color: #4aaaa5;
+} */
+
   img {
     display: block;
   }
