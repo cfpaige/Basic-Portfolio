@@ -59,6 +59,13 @@ li a.active {
     color: #ffffff;
     padding: 0 16px;
 }
+
+h2 {
+  color: #4aaaa5;
+  border-bottom: 3px dotted #ccc;
+  padding-bottom: 1em;
+}
+
 .content-wrap {
     height: 100%;
     max-width: 960px;
@@ -70,10 +77,6 @@ li a.active {
     border-color: #dddddd;
     overflow: hidden;
   }
-
-h2 {
-  color: #4aaaa5;
-}
 
 #about-img {
     float: left;
@@ -142,3 +145,35 @@ figcaption {
   .fade figcaption:hover {
     background: rgba(255, 255, 255, 0.5);
     border: 8px solid #4aaaa5;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgba(74, 170, 165, .5);
+  }
+  
+  .container {
+    border-radius: 3px;
+    background-image: url(../images/background-waves.png);
+    padding: 20px;
+  }
+  
